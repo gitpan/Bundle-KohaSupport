@@ -1,6 +1,6 @@
 package Bundle::KohaSupport;
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 __END__
 
@@ -18,7 +18,7 @@ C<perl -MCPAN -e 'install Bundle::KohaSupport'>
 
 Test::Harness
 
-Test::More
+Test::Simple
 
 Date::Manip
 
@@ -28,11 +28,17 @@ DBI
 
 Digest::MD5
 
+Event
+
 File::Spec
 
 HTML::Template
 
 MARC::Record
+
+Event
+
+Net::Z3950
 
 Set::Scalar
 
@@ -48,7 +54,7 @@ modules for Koha, the open source integrated library system.
 =item Test::Harness
 Run perl standard test scripts with statistics
 
-=item Test::More
+=item Test::Simple
 A framework for test scriptss
 
 =item Date::Manip
@@ -56,10 +62,10 @@ Date manipulation routines
 
 =item DBD::mysql
 This module is used to connect to the database that Koha 
-uses to store its information.
+uses to store its information
 
 =item DBI
-A Database interface.
+A Database interface
 
 =item Digest::MD5
 Perl interface to the MD5 algorithm
@@ -68,16 +74,22 @@ Perl interface to the MD5 algorithm
 Performs portability operations on file names
 
 =item HTML::Template
-For templates in the Koha web based interface.
+For templates in the Koha web based interface
 
 =item MARC::Record
 Module for handling MARC records as objects
 
+=item Event
+Fast, generic event loop
+
+=item Net:Z3950
+OO Interface to to Yaz 39.50 toolkit
+
 =item Set::Scalar
-Basic Set operations.
+Basic Set operations
 
 =item Mail::Sendmail
-Simple platform independant mailler.
+Simple platform independant mailler
 
 =head1 AUTHOR
 
