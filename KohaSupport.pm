@@ -1,6 +1,6 @@
 package Bundle::KohaSupport;
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 __END__
 
@@ -35,6 +35,8 @@ HTML::Template
 MARC::Record
 
 Set::Scalar
+
+Mail::Sendmail
 
 =head1 DESCRIPTION
 
@@ -73,6 +75,9 @@ Module for handling MARC records as objects
 
 =item Set::Scalar
 Basic Set operations.
+
+=item Mail::Sendmail
+Simple platform independant mailler.
 
 =head1 AUTHOR
 

@@ -1,5 +1,8 @@
 Revision history for Bundle::KohaSupport
 
+0.07	November 27, 2002
+	- Added Mail::Sendmail
+
 0.05	October 14, 2002
 	- Fixed typo
 
