@@ -1,8 +1,10 @@
 package Bundle::KohaSupport;
 
-$VERSION = '0.03';
+our $VERSION = '0.05';
 
 __END__
+
+1;
 
 =head1 NAME
 
@@ -14,28 +16,64 @@ C<perl -MCPAN -e 'install Bundle::KohaSupport'>
 
 =head1 CONTENTS
 
-Test::Harness		- Run perl standard test scripts with statistics 
+Test::Harness
 
-Test::More		- A framework for test scripts 
+Test::More
 
-Date::Manip		- Date manipulation routines
+Date::Manip
 
-DBD::mysql		- mysql drivers for the Perl Database Interface
+DBD::mysql
 
-DBI			- Database independent interface for Perl
+DBI
 
-Digest::MD5		- Interface to the MD5 Algorithm
+Digest::MD5
 
-HTML::Template		- Perl module to use HTML Templates from CGI scripts
+File::Spec
 
-MARC::Record		- Module for handling MARC records as objects
+HTML::Template
 
-Set::Scalar		- Basic set operations
+MARC::Record
+
+Set::Scalar
 
 =head1 DESCRIPTION
 
 This bundle gathers together all installs all of the prerequisite 
 modules for Koha, the open source integrated library system.
+
+=over 4
+
+=item Test::Harness
+Run perl standard test scripts with statistics
+
+=item Test::More
+A framework for test scriptss
+
+=Date::Manip
+Date manipulation routines
+
+=item DBD::mysql
+This module is used to connect to the database that Koha 
+uses to store its information.
+
+=item DBI
+A Database interface.
+
+=item Digest::MD5
+Perl interface to the MD5 algorithm
+
+=item File::Spec
+Performs portability operations on file names
+
+=item HTML::Template
+For templates in the Koha web based interface.
+
+=item MARC::Record
+Module for handling MARC records as objects
+
+=item Set::Scalar
+Basic Set operations.
+
 
 =head1 AUTHOR
 

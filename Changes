@@ -1,5 +1,14 @@
 Revision history for Bundle::KohaSupport
 
+0.05	October 3, 2002
+	- Fixed typo
+
+0.04	October 1, 2002
+	- Added Test::Harness and Test::More to the bundle
+
+0.03	September 30, 2002
+	- Added File::Spec to the bundle
+
 0.02	September 28, 2002
 	- Added MARC::Record to the bundle
 
