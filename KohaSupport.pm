@@ -1,6 +1,6 @@
 package Bundle::KohaSupport;
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 __END__
 
@@ -49,7 +49,7 @@ Run perl standard test scripts with statistics
 =item Test::More
 A framework for test scriptss
 
-=Date::Manip
+=item Date::Manip
 Date manipulation routines
 
 =item DBD::mysql
@@ -73,7 +73,6 @@ Module for handling MARC records as objects
 
 =item Set::Scalar
 Basic Set operations.
-
 
 =head1 AUTHOR
 
