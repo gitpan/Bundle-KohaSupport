@@ -1,0 +1,7 @@
+Revision history for Bundle::KohaSupport
+
+0.02	September 28, 2002
+	- Added MARC::Record to the bundle
+
+0.01	September 10, 2002
+	- First version.
