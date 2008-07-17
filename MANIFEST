@@ -1,5 +1,6 @@
-KohaSupport.pm
+Changes
 Makefile.PL
 MANIFEST
 README
-Changes
+t/Bundle-KohaSupport.t
+lib/Bundle/KohaSupport.pm

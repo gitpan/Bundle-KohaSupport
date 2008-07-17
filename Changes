@@ -1,4 +1,9 @@
-Revision history for Bundle::KohaSupport
+Revision history for Perl extension Bundle::KohaSupport.
+
+0.30	July 17, 2008
+	- Updated complete list of required modules
+	- Is now aligned with the Koha 3.0 Installer
+	- Updated Version Number to reflect supporting Koha 3.0.
 
 0.08	January 22, 2003
 	- Added Net::Z3950

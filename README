@@ -1,14 +1,10 @@
-Bundle/KohaSupport version 0.01
+Bundle-KohaSupport version 0.3
 ===============================
 
 This bundle will assist in the installation of the support modules 
 that are required for the Koha Open Source library System 
 (see http://www.koha.org).
 
-In addition to the modules that this bundle will install, it is 
-recommended that you also install the 'yaz' client
-(see http://http://www.indexdata.dk/yaz/), and once that is installed 
-you can install Net::Z3950
 
 INSTALLATION
 
@@ -16,14 +12,20 @@ To install this module type the following:
 
    perl Makefile.PL
    make
+   make test
    make install
 
-GETTING HELP
+DEPENDENCIES
 
-The official Koha web site is at http://www.koha.org/.  There
-you'll find documentation, news, etc.
+This module has no current dependencies other that a working perl installation.
 
-The FAQ can be found at http://www.koha.org/faq/.
 
-Several mailing lists exist for Koha users and developers. Full
-information can be found at http://www.koha.org/mailing/
+COPYRIGHT
+
+Copyright (C) 2008 by Mike Mylonas
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.8 or,
+at your option, any later version of Perl 5 you may have available.
+
+
